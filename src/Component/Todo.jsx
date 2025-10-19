@@ -19,7 +19,7 @@ const Todo = () => {
       <input
        type="text"
      onChange={(e)=> setText(e.target.value)}
-       className=' border-2 border-red-500'
+       className=' border-2 border-orange-500'
        
        /> <br /> <br /> <br />
        <button onClick={addtask} className=' bg-blue-500 text-white py-3 px-10'>Add</button>
